@@ -1,9 +1,8 @@
-@media screen and (max-width:420px)
-.container {
+
+/* Responsive Phone  */
+@media screen and (max-width:420px) .container {
     font-size: 1rem;
     
-    box-sizing: border-box;
-    margin:1rem;
 }
 
 
@@ -21,7 +20,7 @@
 .photo-id img {
     border-radius: 50%;
     border: 3px solid #455A64;
-   text-align: center;
+    text-align: center;
 
 
 }
@@ -29,210 +28,230 @@
 .name h1 {
     text-transform: uppercase;
     font-size: 1.5rem;
-}
-
-.name h1 a {
-    color: #78909C;
-}
-
-.name {
-    text-align: center;
-
-}
-
-.name span {
-    border-bottom: 2px solid #78909C;
-
-}
-
-.main h3 {
-    border-bottom: 0.15rem solid #78909C;
-    text-transform: uppercase;
-}
-
-.aside h2 {
-    background-color: #CFD8DC;
-    opacity: 0.7;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
-
-}
-
-.aside {
-    background-color: #78909C;
-}
-
-#formation .puce_date_lieu {
-    display: flex;
 
 
-}
-
-#formation .puce_date_lieu i {
-    margin: 1rem 2rem 0 0;
-
-}
-
-#formation p {
-    margin: 0 1rem 2rem 0;
-}
-
-.main header {
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-
-#experience .puce_date_lieu {
-    display: flex;
-
-}
-
-#experience .puce_date_lieu i {
-    margin: 1rem 2rem 0 0;
-
-}
-
-#recommandations {
-    
-    flex-direction: column;
-   
-   
-
-
-}
-.contact1 {
-    padding-bottom: 2rem;
-}
-
-#recommandations a:link {
-    text-decoration: none;
-    color: black;
-}
-
-#recommandations a:visited {
-    color: black;
-}
-
-
-
-#recommandations h5 {
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-#recommandations a:hover {
-    color: rgb(255, 255, 255);
-    background-color: #78909C;
-    transition: 0.6s;
-}
-
-
-.aside a:link {
-    color: black;
-    text-decoration: none;
-}
-
-.aside address {
-    text-align: center;
-    font-size: 1.3rem;
-}
-
-.aside a:link {
-    color: black;
-    text-decoration: none;
-}
-
-.aside a:visited {
-    color: black;
-}
-
-.aside a:hover {
-    color: rgb(255, 255, 255);
-    background-color: black;
-    transition: 0.6s;
-}
-
-.aside p {
-    text-justify: auto;
-    margin: 4rem 2rem 45rem 2rem;
-
-
-}
-
-.icones i {
-
-    padding: 1rem;
-
-
-    border: solid 2px black;
-    border-radius: 50%;
-}
-
-.icones {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
-}
-
-.main i {
-    color: #78909C;
-}
-
-.detail {
-    margin-bottom: 4rem;
-
-}
-
-.apropos {
-    padding-bottom: 5rem;
-}
-
-@media screen and (min-width:1000px){
-
-.aside {
-    order:2;
-}
-.main{
-    order:3;
-    width:60%;
-}
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.aside{
-  width:30%;
-}
-.header {
-    display:flex;
-    
-    flex-wrap: wrap;
-    height: 15rem;
-    width:100%;
-}
-.photo-id {
-    width:26%;
-}
-.name {
-    width:60%;
-    text-align: center;
-}
-.main{
-    padding-left: 5rem;
-}
-#recommandations {
-    display:flex;
-
- }
-
-#recommandations .contact1 {
-        margin-right: 10rem;
+    .name h1 a {
+        color: #78909C;
     }
-.container{
-    width:1000px;
-}
-.photo-id img {
-    margin-top: 2.92rem;
-}
+
+    .name {
+        text-align: center;
+
+    }
+
+    .name span {
+        border-bottom: 2px solid #78909C;
+
+    }
+
+    .main h3 {
+        border-bottom: 0.15rem solid #78909C;
+        text-transform: uppercase;
+    }
+
+    .aside h2 {
+        background-color: #CFD8DC;
+        opacity: 0.7;
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+
+    }
+
+    .aside {
+        background-color: #78909C;
+    }
+
+    #formation .puce_date_lieu {
+        display: flex;
+
+
+    }
+
+    #formation .puce_date_lieu i {
+        margin: 1rem 2rem 0 0;
+
+    }
+
+    #formation p {
+        margin: 0 1rem 2rem 0;
+    }
+
+    .main header {
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+    #experience .puce_date_lieu {
+        display: flex;
+
+    }
+
+    #experience .puce_date_lieu i {
+        margin: 1rem 2rem 0 0;
+
+    }
+
+    #recommandations {
+
+        flex-direction: column;
+        text-align: center;
+
+
+
+    }
+
+    .contact1 {
+        padding-bottom: 2rem;
+    }
+
+    #recommandations a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    #recommandations a:visited {
+        color: black;
+    }
+
+
+
+    #recommandations h5 {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    #recommandations a:hover {
+        color: rgb(255, 255, 255);
+        background-color: #78909C;
+        transition: 0.6s;
+    }
+
+
+    .aside a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .aside address {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .aside a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .aside a:visited {
+        color: black;
+    }
+
+    .aside a:hover {
+        color: rgb(255, 255, 255);
+        background-color: black;
+        transition: 0.6s;
+    }
+
+    .aside p {
+        text-justify: auto;
+        margin: 4rem 2rem 45rem 2rem;
+
+
+    }
+
+    .icones i {
+
+        padding: 1rem;
+
+
+        border: solid 2px black;
+        border-radius: 50%;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 1rem;
+    }
+
+    .main i {
+        color: #78909C;
+    }
+
+
+    .detail {
+        margin-bottom: 4rem;
+
+    }
+
+/* Responsive Desktop  */
+
+    @media screen and (min-width:1000px) {
+        .container {
+            margin: auto;
+        }
+
+        .aside {
+            order: 2;
+        }
+
+        .main {
+            order: 3;
+            width: 60%;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .aside {
+            width: 30%;
+        }
+
+        .header {
+            display: flex;
+
+            flex-wrap: wrap;
+            height: 15rem;
+            width: 100%;
+        }
+
+        .photo-id {
+            width: 26%;
+        }
+
+        .name {
+            width: 60%;
+            text-align: center;
+        }
+
+        .main {
+            padding-left: 5rem;
+        }
+
+        #recommandations {
+            display: flex;
+            flex-direction: row;
+
+
+        }
+
+        #recommandations .contact1 {
+            padding-right: 14rem;
+        }
+
+        .container {
+            width: 1000px;
+        }
+
+        .photo-id img {
+            margin-top: 2.92rem;
+        }
+
+        .apropos {
+            text-align: justify;
+        }
