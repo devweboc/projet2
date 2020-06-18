@@ -1,8 +1,11 @@
 
 /* Responsive Phone  */
-@media screen and (max-width:420px) .container {
-    font-size: 1rem;
-    
+@media screen and (max-width:420px){ 
+
+    .container {
+        font-size: 1rem;
+        
+    }
 }
 
 
@@ -256,3 +259,4 @@
         .apropos {
             text-align: justify;
         }
+    }    
