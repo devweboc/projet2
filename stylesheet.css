@@ -2,6 +2,7 @@
 
 @media screen and (min-width : 300px) {
 
+   
 
     .photo-id {
         background-color: #78909C;
@@ -200,7 +201,6 @@
 
 @media screen and (min-width:1000px) {
 
-
     .aside {
         order: 2;
         width: 30%;
@@ -241,7 +241,7 @@
 
     }
 
-    .name h2 {
+    .name h1 {
         text-transform: uppercase;
         font-size: 2.2rem;
     }
@@ -264,15 +264,13 @@
 
     }
 
-    .cv-part-content .puce_date_lieu {
-        padding: 1rem 0 1rem 0;
-    }
-
+    
 
 
 
     .container {
-        width: 1000px;
+       width: 1000px;
+        
     }
 
     .photo-id img {
@@ -292,13 +290,14 @@
 
     .loisirs {
         padding-top: 24rem;
-        min-height: auto;
+        
+        
     }
 
     .icones {
         display: flex;
         justify-content: space-around;
-        margin-top: 5rem;
+        margin-top: 1rem;
 
 
 
@@ -314,6 +313,7 @@
         min-width: 30%;
         display: flex;
         margin-right: 5rem;
+        padding-top: 0;
 
 
     }
@@ -331,6 +331,6 @@
         margin-bottom: 0;
 
     }
-
+    
 
 }
