@@ -1,5 +1,3 @@
-
-    
 /* Responsive Phone  */
 
 @media screen and (min-width : 300px) {
@@ -18,26 +16,28 @@
         text-align: center;
 
     }
+
     .main {
         margin: 0 1rem 0 1rem;
     }
 
-    .name h2 {
+    .name h1 {
         text-transform: uppercase;
         font-size: 1.5rem;
     }
 
 
-    .name h2 span {
+    .name h1 span {
         color: #78909C;
     }
 
     .name {
         text-align: center;
+        padding: 2rem 0 2rem 1rem;
 
     }
 
-    .name h3 span {
+    .name h2 span {
         border-bottom: 2px solid #78909C;
 
     }
@@ -45,30 +45,52 @@
     .main h4 {
         border-bottom: 0.15rem solid #78909C;
         text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+    .cv-part-title {
+        display: flex;
+
+        justify-content: center;
     }
 
     .aside h2 {
         background-color: #CFD8DC;
         opacity: 0.7;
+        line-height: 3rem;
         text-align: center;
         color: black;
         text-transform: uppercase;
 
     }
 
+
     .aside {
         background-color: #78909C;
     }
 
-    #formation .puce_date_lieu {
-        display: flex;
-
+    .aside address {
+        font-size: 1rem;
+        font-style: normal;
+        text-align: center;
 
     }
 
-    #formation .puce_date_lieu i {
-        margin: 1rem 2rem 0 0;
+    .cv-part-content {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
+    .puce_date_lieu {
+        display: flex;
+        margin-top: 0;
+        padding-top: 0;
+        min-width: 100%;
+    }
+
+    .puce_date_lieu p {
+        margin: 0 1rem 1rem 2rem;
+        min-width: 100%;
     }
 
     #formation p {
@@ -78,50 +100,31 @@
     .main header {
         text-transform: uppercase;
         font-weight: bold;
-
     }
 
-    #experience .puce_date_lieu {
-        display: flex;
-
-    }
-
-    #experience .puce_date_lieu i {
-        margin: 1rem 2rem 0 0;
-
-    }
-
-    #recommandations {
-
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 3rem;
+  
 
 
-
-    }
-
-    .contact1 {
-        padding-bottom: 2rem;
-    }
-
-    #recommandations a:link {
+    .cv-part a:link {
         text-decoration: none;
         color: black;
     }
 
-    #recommandations a:visited {
+     .cv-part a:visited {
         color: black;
     }
 
 
+    .cv-part-content {
+        display: flex;
+    }
 
-    #recommandations h5 {
+    .cv-part-content h5 {
         text-transform: uppercase;
         font-size: 1rem;
     }
 
-    #recommandations a:hover {
+    .cv-part a:hover {
         color: rgb(255, 255, 255);
         background-color: #78909C;
         transition: 0.6s;
@@ -135,7 +138,8 @@
 
     .aside address {
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
+        text-decoration: none;
     }
 
     .aside a:link {
@@ -154,7 +158,7 @@
     }
 
     .aside p {
-        text-justify: auto;
+
         margin: auto;
         margin: 4rem 2rem 8rem 2rem;
 
@@ -186,16 +190,23 @@
         margin-bottom: 4rem;
 
     }
+
+    .contact {
+        text-align: center;
+    }
 }
 
 /* Responsive Desktop  */
 
 @media screen and (min-width:1000px) {
-  
-  
+
+
     .aside {
         order: 2;
+        width: 30%;
+        text-align: start;
     }
+
 
     .main {
         order: 3;
@@ -205,18 +216,14 @@
 
     .container {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin:auto;
+        flex-flow: row wrap;
+        margin: auto;
     }
 
-    .aside {
-        width: 30%;
-    }
+
 
     .header {
         display: flex;
-
         flex-wrap: wrap;
         height: 15rem;
         width: 100%;
@@ -229,8 +236,8 @@
     .name {
         font-size: 1.7rem;
         width: 60%;
-        text-align: center;
-        padding: 3rem;
+        text-align: start;
+        padding: 2rem 0 0rem 5rem;
 
     }
 
@@ -239,24 +246,30 @@
         font-size: 2.2rem;
     }
 
+    .cv-part-title {
+        justify-content: start;
+    }
+
     .main {
         padding-left: 5rem;
     }
 
-    .cv-part-content, #recommandations {
+    .cv-part-content {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
 
 
     }
 
-    #recommandations .contact1 {
-        padding-right: 10rem;
+    .cv-part-content .puce_date_lieu {
+        padding: 1rem 0 1rem 0;
     }
 
-    #recommandations .contact2 {
-        padding-bottom: 3rem;
-    }
+
+
 
     .container {
         width: 1000px;
@@ -266,37 +279,58 @@
         margin-top: 2.92rem;
     }
 
+    .aside address {
+
+        text-align: start;
+        padding-left: 2rem;
+    }
+
     .apropos {
         text-align: justify;
 
     }
 
     .loisirs {
-        padding-top: 8rem;
+        padding-top: 24rem;
+        min-height: auto;
     }
 
     .icones {
-        margin-top: 7rem;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5rem;
+
 
 
     }
+
     .cv-part-content {
-      display: flex;
-      flex-direction: row;
-      
+        display: flex;
+        flex-direction: row;
+
     }
+
     .puce_date_lieu {
-      min-width:30%;
-      display:flex;
-    
-      
+        min-width: 30%;
+        display: flex;
+        margin-right: 5rem;
+
+
     }
 
     .puce_date_lieu p {
-      margin: 0;
-      padding-left: 2rem;
+        margin: 0;
+        padding-left: 2rem;
+
+    }
 
 
+
+    .contact2 {
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
 
 
 }
