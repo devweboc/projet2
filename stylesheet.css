@@ -2,8 +2,6 @@
 
 @media screen and (min-width : 300px) {
 
-   
-
     .photo-id {
         background-color: #78909C;
         width: auto;
@@ -15,7 +13,6 @@
         border-radius: 50%;
         border: 3px solid #455A64;
         text-align: center;
-
     }
 
     .main {
@@ -35,7 +32,6 @@
     .name {
         text-align: center;
         padding: 2rem 0 2rem 1rem;
-
     }
 
     .name h2 span {
@@ -51,7 +47,6 @@
 
     .cv-part-title {
         display: flex;
-
         justify-content: center;
     }
 
@@ -62,7 +57,6 @@
         text-align: center;
         color: black;
         text-transform: uppercase;
-
     }
 
 
@@ -74,7 +68,6 @@
         font-size: 1rem;
         font-style: normal;
         text-align: center;
-
     }
 
     .cv-part-content {
@@ -102,16 +95,12 @@
         text-transform: uppercase;
         font-weight: bold;
     }
-
-  
-
-
     .cv-part a:link {
         text-decoration: none;
         color: black;
     }
 
-     .cv-part a:visited {
+    .cv-part a:visited {
         color: black;
     }
 
@@ -159,18 +148,12 @@
     }
 
     .aside p {
-
         margin: auto;
-        margin: 4rem 2rem 8rem 2rem;
-
-
+        margin: 2rem;
     }
 
     .icones i {
-
         padding: 1rem;
-
-
         border: solid 2px black;
         border-radius: 50%;
     }
@@ -186,14 +169,17 @@
         color: #78909C;
     }
 
-
     .detail {
         margin-bottom: 4rem;
-
     }
 
     .contact {
         text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .contact h5 {
+        margin: 0;
     }
 }
 
@@ -207,7 +193,6 @@
         text-align: start;
     }
 
-
     .main {
         order: 3;
         width: 60%;
@@ -219,9 +204,6 @@
         flex-flow: row wrap;
         margin: auto;
     }
-
-
-
     .header {
         display: flex;
         flex-wrap: wrap;
@@ -238,7 +220,6 @@
         width: 60%;
         text-align: start;
         padding: 2rem 0 0rem 5rem;
-
     }
 
     .name h1 {
@@ -259,18 +240,10 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
-
-
-
     }
 
-    
-
-
-
     .container {
-       width: 1000px;
-        
+        width: 1000px;
     }
 
     .photo-id img {
@@ -278,35 +251,27 @@
     }
 
     .aside address {
-
         text-align: start;
         padding-left: 2rem;
     }
 
     .apropos {
         text-align: justify;
-
     }
 
     .loisirs {
         padding-top: 6rem;
-        
-        
     }
 
     .icones {
         display: flex;
         justify-content: space-around;
-        margin-top: 4rem;
-
-
-
+        margin-top: 6rem;
     }
 
     .cv-part-content {
         display: flex;
         flex-direction: row;
-
     }
 
     .puce_date_lieu {
@@ -314,21 +279,18 @@
         display: flex;
         margin-right: 5rem;
         padding-top: 0;
-
-
     }
 
     .puce_date_lieu p {
         margin: 0;
         padding-left: 2rem;
-
     }
 
-.contact {
-    margin-bottom: 3rem;
-}
+    .contact {
+        margin-bottom: 2rem;
+    }
 
-    
-    
+
+
 
 }
